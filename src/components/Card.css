@@ -1,0 +1,35 @@
+.card{
+    display:flex;
+    flex-direction:column;
+    width:17.3%;
+    height:90px;
+    padding:25px;
+    margin:2rem;
+    margin-left: 0px !important;
+    border-radius: 20px;
+    flex: 1 1 150px !important;
+    margin-bottom:0px !important;
+}
+.cardicon{
+    display: flex;
+    margin-right: -1rem;
+    justify-content: end;
+    font-weight: 700;
+    /* margin-top: rem; */
+    
+}
+.cardtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    font-family: 'Lato';
+}
+.carddata{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 0.3rem;
+}
