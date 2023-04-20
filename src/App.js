@@ -4,8 +4,8 @@ import Dashboard from './Dashboard';
 
 function App() {
   return (
-    // <Signup />
-    <Dashboard />
+    <Signup />
+    // <Dashboard />
   );
 }
 
