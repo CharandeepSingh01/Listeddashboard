@@ -395,27 +395,27 @@ color: #999999;
 }
 @media (max-width:730px) {
     .page-body{
-        height:153vh !important;
-        width:110%;
+        height:170vh !important;
+        width:120%;
     }
 
 }
 @media (max-width:630px) {
     .page-body{
-        height:178vh !important;
-        width:140%
+        height:190vh !important;
+        width:180%
     }
 }
 @media (max-width:560px) {
     .page-body{
-        height:180vh !important;
+        height:190vh !important;
         width:140%;
     }
 }
 @media (max-width:517px) {
     .page-body{
-        height:180vh !important;
-        width:120%;
+        height:190vh !important;
+        width:160%;
     }
 }
 @media (max-width:464px) {
