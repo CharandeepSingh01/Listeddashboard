@@ -4,7 +4,7 @@ import img from "./images/google.png";
 import img2 from "./images/apple2.png";
 import {auth,provider} from './google/config';
 import { signInWithPopup } from "firebase/auth";
-// import { useState } from "react";
+import { useState } from "react";
 import Dashboard from "./Dashboard";
 
 const Signup = () => {
@@ -16,9 +16,9 @@ const Signup = () => {
     }
     )};
 
-  // useEffect(() => {
-  //   setValue(localStorage.getItem('email'));
-  // });
+  useEffect(() => {
+    setValue(localStorage.getItem('email'));
+  });
 
   return (
     <div>
