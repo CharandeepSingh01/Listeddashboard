@@ -396,12 +396,14 @@ color: #999999;
 @media (max-width:730px) {
     .page-body{
         height:153vh !important;
+        width:110%;
     }
 
 }
 @media (max-width:630px) {
     .page-body{
         height:178vh !important;
+        width:140%
     }
 }
 @media (max-width:560px) {
