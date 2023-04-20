@@ -6,6 +6,7 @@ import {auth,provider} from './google/config';
 import { signInWithPopup } from "firebase/auth";
 import { useState } from "react";
 import Dashboard from "./Dashboard";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   const [value, setValue] = useState('');
@@ -23,7 +24,7 @@ const Signup = () => {
   return (
     <div>
       <div>
-    {value? <Dashboard /> : 
+    {/* {value? <Dashboard /> :  */}
       <><div className="head-div">
             Board.
           </div><div className="main-div">
@@ -37,7 +38,7 @@ const Signup = () => {
                     Sign in to your account
                   </p>
                   <div className="signin-option">
-
+                    <Link to="/dashboard" style={{ textDecoration: 'none' }}>
                     <button className="sign-auth" onClick={onclickHandler}>
                       <img
                         src={img}
@@ -51,6 +52,8 @@ const Signup = () => {
                       ></img>
                       Sign in with Google
                     </button>
+                    </Link>
+                    <Link to="/dashboard" style={{ textDecoration: 'none' }}>
                     <button className="sign-auth" onClick={onclickHandler}>
                       <img
                         src={img2}
@@ -64,6 +67,7 @@ const Signup = () => {
                       ></img>
                       Sign in with Apple
                     </button>
+                    </Link>
                   </div>
                   <div className="form-main-div">
                     <form className="form">
@@ -89,7 +93,9 @@ const Signup = () => {
                       <a href="#" className="forgot-password">
                         Forgot password?
                       </a>
+                      <Link to="/dashboard" style={{ textDecoration: 'none' }}>
                       <button className="form-button" onClick={onclickHandler}>Sign In</button>
+                      </Link>
                     </form>
                   </div>
                   <div className="signup-link">
@@ -104,7 +110,7 @@ const Signup = () => {
               </div>
             </div></>
     
-                }</div></div>
+                </div></div>
   );
 };
 

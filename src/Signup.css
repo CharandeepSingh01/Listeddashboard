@@ -69,6 +69,7 @@
     flex-direction: row;
 }
 .sign-auth{
+    text-decoration: none;
     display:flex;
     justify-content: center;
     align-items: center;
