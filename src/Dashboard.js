@@ -134,13 +134,13 @@ const Dashboard = () => {
                             </div>
                             <div className="bottom-card-sub3">
                                 <div className="bottom-card-sub2-div">
-                                Meeting with suppliers from Kuta Bali
+                                Check operation at Giga Factory 1
                                 </div>
                                 <div className="bottom-card-sub2-div1">
-                                14.00-15.00
+                                18.00-20.00
                             </div>
                             <div className="bottom-card-sub2-div1">
-                            at Sunset Road, Kuta, Bali
+                            at Central Jakarta
                                 </div>
                             </div>
 
